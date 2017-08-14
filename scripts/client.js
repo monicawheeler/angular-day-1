@@ -1,7 +1,7 @@
-var phirePhiterApp = angular.module('PhirePhiterApp', []);
+var app = angular.module('GithubListApp', []);
 
-phirePhiterApp.controller('PhirePhiterController', function(){
-  console.log('PhirePhiter controller loaded');
+app.controller('GithubUserController', function(){
+  console.log('GithubUserController loaded');
 
   var self = this; // holds the value of this
 
